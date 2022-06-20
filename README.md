@@ -37,7 +37,10 @@ The following are the solutions in-line:
 ![image](https://user-images.githubusercontent.com/14873110/174568536-9ce1079c-3df9-4dd9-9a16-535759c909db.png)
 
 ### Testing the essential tools
-1. OpenTimer:
+1. OpenTimer: [ref](https://github.com/OpenTimer/OpenTimer)
+
+For the circuit 
+![image](https://user-images.githubusercontent.com/14873110/174590328-e499ae67-4220-4615-81f4-00bb5385b488.png)
 
 ```
 ot> cd example/simple
