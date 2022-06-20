@@ -1,13 +1,15 @@
 # Enabling-SDC-swithces-in-Yosys
 
-## Step-1: Hawk-eye view write-up of the project
+## Step-1: A hawk-eye view write-up of the project
 The following PDF introduces the problem statement, and briefs on the goal that this work aims at.
 
 [Enabling_SDC_Switches_in_Yosys.pdf](https://github.com/stativeboss/Enabling-SDC-swithces-in-Yosys/files/8939670/Enabling_SDC_Switches_in_Yosys.pdf)
 
-### Installing tools
+## Step-2: Installing the tools and shortlisting the SDC commands
 
-The [free course](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/) by Kunal Ghosh on Udemy was referred.
+### Installation of tools
+
+For installation of tools, the [free course](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/) by Kunal Ghosh on Udemy was referred.
 
 The course suggests the following steps:
 1. Install Oracle VM.
