@@ -51,3 +51,5 @@ ot> report_timing      # report the most critical path
 ```
 ![image](https://user-images.githubusercontent.com/14873110/174589416-8d53ee1d-6059-498c-934d-530a8dcbb937.png)
 
+2. Yosys: [ref]()
+
