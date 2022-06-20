@@ -1,6 +1,6 @@
 # Enabling-SDC-swithces-in-Yosys
  
-This repo is a step-by-step journey of my [Hardware Design Program offered by VLSI System Design](https://www.vlsisystemdesign.com/hdp/). The title of this repo is the ultimate outcome of this journey. 
+This repo is my step-by-step journey through the ten-week [Hardware Design Program offered by VLSI System Design](https://www.vlsisystemdesign.com/hdp/). The title of this repo is the ultimate outcome of this journey. 
 
 ## Step-1: A hawk-eye view write-up of the project
 The following PDF introduces the problem statement, and briefs on the goal that this work aims at.
