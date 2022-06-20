@@ -39,9 +39,9 @@ The following are the solutions in-line:
 ### Testing the essential tools
 1. OpenTimer: [ref](https://github.com/OpenTimer/OpenTimer)
 
-For the circuit 
 ![image](https://user-images.githubusercontent.com/14873110/174590328-e499ae67-4220-4615-81f4-00bb5385b488.png)
 
+The following command lines are used to generate the timing report for the above circuit
 ```
 ot> cd example/simple
 ot> read_celllib osu018_stdcells.lib
