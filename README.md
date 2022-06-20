@@ -3,9 +3,15 @@
 This repo is my step-by-step journey through the ten-week [Hardware Design Program offered by VLSI System Design](https://www.vlsisystemdesign.com/hdp/). The title of this repo is the ultimate outcome of this journey. 
 
 ## Step-1: A hawk-eye view write-up of the project
-The following PDF introduces the problem statement, and briefs on the goal that this work aims at.
+Inherently, Yosys is capable of performing the following: Process a synthesizable Verilog code, check for equivalence, and map to standard cell libraries. The framework as such does not consider timing, power, or area constraints. This work aims to enable the Synopsys Design Constraints (SDCs) in Yosys.
 
-[Enabling_SDC_Switches_in_Yosys.pdf](https://github.com/stativeboss/Enabling-SDC-swithces-in-Yosys/files/8939670/Enabling_SDC_Switches_in_Yosys.pdf)
+Though proprietary resources offer 'personalised' support, are more secure and powerful, they are 'black boxes' which are expected to work as plug-and-play. Open resources on the other hand, are more customizable, reliable, and cheaper. As the market grows, there will be an obvious progress in the proprietary resources. If the open source resources could catch up with the industry needs, it'd give the designers a flexibility to choose an open source resource or a proprietary resource, depending on the need and application. In the VLSI industry, many open source resources have been developed to cater the Application Specific Integrated Circuit(ASIC), as well as the Field Programmable Gate Array(FPGA) design flows. 'Yosys', a logic synthesis framework, is one such resource that has gained popularity. More about Yosys is discussed in the next section.
+
+During the synthesis phase, the designer might want to set certain expectations (or rather requirements) on the design and timing characteristics. These expectations are called 'Constraints'. 'Synopsys Design Constraints' (SDC) is a widely used format by many proprietary tools to describe these constraints. It'd be useful to run SDC or mimick similar constraints on Yosys.
+
+![image](https://user-images.githubusercontent.com/14873110/174593593-0a0af9b9-8309-4a1d-b57e-ccb37e6132c0.png)
+
+In the above figure, a. Shows typical ASIC design flow while b. Shows the proposal
 
 ## Step-2: Installing the tools and shortlisting the SDC commands
 
