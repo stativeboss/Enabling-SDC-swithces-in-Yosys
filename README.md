@@ -35,3 +35,16 @@ The following are the solutions in-line:
 2. For doctest.h issue, the 4 * SIGSTKSZ from the array was replaced by 32.
 
 ![image](https://user-images.githubusercontent.com/14873110/174568536-9ce1079c-3df9-4dd9-9a16-535759c909db.png)
+
+### Testing the essential tools
+1. OpenTimer:
+
+```
+ot> cd example/simple
+ot> read_celllib osu018_stdcells.lib
+ot> read_verilog simple.v   
+ot> read_sdc simple.sdc
+ot> report_timing      # report the most critical path
+```
+![image](https://user-images.githubusercontent.com/14873110/174589416-8d53ee1d-6059-498c-934d-530a8dcbb937.png)
+
