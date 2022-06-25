@@ -13,7 +13,7 @@ During the synthesis phase, the designer might want to set certain expectations 
 
 In the above figure, a. Shows typical ASIC design flow while b. Shows the proposal
 
-## Step-2: Installing the tools and shortlisting the SDC commands
+## Step-2: Installing the tools
 
 ### Installation of tools
 
@@ -60,4 +60,25 @@ ot> report_timing      # report the most critical path
 ![image](https://user-images.githubusercontent.com/14873110/174589416-8d53ee1d-6059-498c-934d-530a8dcbb937.png)
 
 2. Yosys: [ref]()
+
+The following command lines are used to check whether Yosys is working properly:
+```
+>>git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git //cloning git that has .v examples
+>>cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+>>yosys
+>>read_verilog good_mux.v
+>>synth -top good_mux
+>>show
+```
+![image](https://user-images.githubusercontent.com/14873110/175656292-24d9e495-3fdb-4d37-ae60-93368bc2b1db.png)
+
+The good_mux.v contains the following code:
+![image](https://user-images.githubusercontent.com/14873110/175656808-e1b41ef3-deae-4098-a9eb-c7b7a66e3b1a.png)
+
+## Step 2.a: Static Timing Analisys course from Udemy
+
+
+
+
+
 
