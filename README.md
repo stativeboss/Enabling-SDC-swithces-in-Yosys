@@ -13,7 +13,7 @@ During the synthesis phase, the designer might want to set certain expectations 
 
 In the above figure, a. Shows typical ASIC design flow while b. Shows the proposal
 
-## Step-2: Installing the tools
+## Step-2: Tool installation and understanding the timing theory
 
 ### Installation of tools
 
@@ -75,7 +75,7 @@ The following command lines are used to check whether Yosys is working properly:
 The good_mux.v contains the following code:
 ![image](https://user-images.githubusercontent.com/14873110/175656808-e1b41ef3-deae-4098-a9eb-c7b7a66e3b1a.png)
 
-## Step 2.a: Static Timing Analisys course from Udemy
+### Static Timing Analisys course from Udemy
 
 
 
