@@ -75,7 +75,14 @@ The following command lines are used to check whether Yosys is working properly:
 The good_mux.v contains the following code:
 ![image](https://user-images.githubusercontent.com/14873110/175656808-e1b41ef3-deae-4098-a9eb-c7b7a66e3b1a.png)
 
-### Static Timing Analisys course from Udemy
+### Static Timing Analisys using OpenTimer
+
+![image](https://user-images.githubusercontent.com/14873110/177344348-2fcb6a30-dcfe-4f5e-9c97-96db703e3efa.png)
+![image](https://user-images.githubusercontent.com/14873110/177345217-a3711916-7920-4139-9c59-991218790dff.png)
+
+The following figure shows the timing constraints that were imposed and reflected by OpenTimer in the above figure:
+![image](https://user-images.githubusercontent.com/14873110/177346154-3063f7bf-b36c-4dc7-9b69-66896404e5b7.png)
+
 
 
 
