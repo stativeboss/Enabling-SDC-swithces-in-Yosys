@@ -77,6 +77,8 @@ The good_mux.v contains the following code:
 
 ### Static Timing Analisys using OpenTimer
 
+![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
+
 ![image](https://user-images.githubusercontent.com/14873110/177344348-2fcb6a30-dcfe-4f5e-9c97-96db703e3efa.png)
 ![image](https://user-images.githubusercontent.com/14873110/177345217-a3711916-7920-4139-9c59-991218790dff.png)
 
