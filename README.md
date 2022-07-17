@@ -77,6 +77,11 @@ The good_mux.v contains the following code:
 
 ### Static Timing Analisys using OpenTimer
 
+#### The basics of STA
+
+Timing path: A timing path is the path between A and B. 'A' can be either a clk pin or an input port while 'B' can be either D-pin of FF or an output-port.
+
+
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
 
 The following is contained in my_netlist.v:
