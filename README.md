@@ -81,6 +81,10 @@ The good_mux.v contains the following code:
 
 Timing path: A timing path is the path between A and B. 'A' can be either a clk pin or an input port while 'B' can be either D-pin of FF or an output-port.
 
+![image](https://user-images.githubusercontent.com/14873110/179394947-9a773f4a-a0ae-4e80-b713-bde97edbd80d.png)
+
+In the above figure, paths 1->2, 1->2->3->4->5, 6->3->4, 7->5 are the four possible timing paths.
+
 
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
 
