@@ -73,6 +73,7 @@ The following command lines are used to check whether Yosys is working properly:
 ![image](https://user-images.githubusercontent.com/14873110/175656292-24d9e495-3fdb-4d37-ae60-93368bc2b1db.png)
 
 The good_mux.v contains the following code:
+
 ![image](https://user-images.githubusercontent.com/14873110/175656808-e1b41ef3-deae-4098-a9eb-c7b7a66e3b1a.png)
 
 ### Static Timing Analisys using OpenTimer
