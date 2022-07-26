@@ -79,13 +79,19 @@ The good_mux.v contains the following code:
 
 #### The basics of STA
 
-Timing path: A timing path is the path between A and B. 'A' can be either a clk pin or an input port while 'B' can be either D-pin of FF or an output-port.
+*Timing path* : A timing path is the path between A and B. 'A' can be either a clk pin or an input port while 'B' can be either D-pin of FF or an output-port.
 
 ![image](https://user-images.githubusercontent.com/14873110/179394947-9a773f4a-a0ae-4e80-b713-bde97edbd80d.png)
 
 In the above figure, paths 1->2, 1->2->3->4->5, 6->3->4, 7->5 are the four possible timing paths.
 
-Arrival time: The time required for the signal to start from A and reach B. It may be noted that arrival time is calculated at B only. Also, B may have multiple arrival times depending on whether it has multiple A's (for example the above figure has two arrival times at 5 i.e, 4->5 and 7->5).
+*Arrival time* : The time required for the signal to start from A and reach B. It may be noted that arrival time is calculated at B only. Also, B may have multiple arrival times depending on whether it has multiple A's 
+
+(for example the above figure has two arrival times at 5 i.e, 4->5 and 7->5).
+
+*Required time* : This is the time that defines the constraints. Consider you wish to catch a train at 5:45pm. You arrive at the station at 5:35pm. Here the required time is 5:45pm and the arrival time is 5:35pm.
+
+Now the constraint could also have a lower limit. In the above train example, let us say the railway staff released a notice saying that the passengers will NOT be allowed into the railway station half an hour prior to their respective train time. In this case, you have to reach the station between 5:15pm and 5:45pm. 
 
 
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
