@@ -96,7 +96,12 @@ Now the constraint could also have a lower limit. In the above train example, le
 
 The difference between arrival time and required time is called _slack_. Since required time can have max and min limits, slack also can be min_slack or max_slack. 
 
-In the train example, min_slack would be 20min (5:35 - 5:15), while the max_slack would be 10min (5:45 - 5:35). These slacks would give us the _set-up time_ and _hold time_ constraints.
+In the train example, min_slack would be 20min (5:35 - 5:15), while the max_slack would be 10min (5:45 - 5:35). These slacks would give us the _set-up time_ (max_slack) and _hold time_ (min slack) constraints. It my be noted that negative slack (min or max) is not desirable.
+
+![image](https://user-images.githubusercontent.com/14873110/180965174-db319242-4816-43a6-ab59-738eba8cc3d2.png)
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
