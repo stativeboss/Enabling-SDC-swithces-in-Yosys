@@ -98,7 +98,19 @@ The difference between arrival time and required time is called _slack_. Since r
 
 In the train example, min_slack would be 20min (5:35 - 5:15), while the max_slack would be 10min (5:45 - 5:35). These slacks would give us the _set-up time_ (max_slack) and _hold time_ (min slack) constraints. It my be noted that negative slack (min or max) is not desirable.
 
-![image](https://user-images.githubusercontent.com/14873110/180965174-db319242-4816-43a6-ab59-738eba8cc3d2.png)
+The below figure will now be used to introduce the types of Set-up/Hold analysis:
+
+![image](https://user-images.githubusercontent.com/14873110/180965541-78904d0b-6cc6-461e-b81a-80a72776edf1.png)
+
+path 6->4 is reg2reg </br>
+path 1->2 is in2reg </br>
+path 5->out (forgot to mention in figure but it'll be after 5) reg2out </br>
+path 1->out in2out </br>
+path 10->11 clock gating </br>
+
+There could be another path from clk_2 to the reset pin of the capture flop through some combinational circuit. This path is called _recover/removal_ path.
+
+
 
 
 
