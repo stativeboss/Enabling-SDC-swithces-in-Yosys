@@ -104,9 +104,9 @@ The below figure will now be used to introduce the types of Set-up/Hold analysis
 
 path 6->4 is reg2reg </br>
 path 1->2 is in2reg </br>
-path 5->out (forgot to mention in figure but it'll be after 5) reg2out </br>
-path 1->out in2out </br>
-path 10->11 clock gating </br>
+path 5->out (forgot to mention in figure but it'll be after 5) is reg2out </br>
+path 1->out is in2out </br>
+path 10->11 is clock gating </br>
 
 There could be another path from clk_2 to the reset pin of the capture flop through some combinational circuit. This path is called _recover/removal_ path.
 
