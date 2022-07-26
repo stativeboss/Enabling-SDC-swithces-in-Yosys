@@ -92,7 +92,11 @@ In the above figure, paths 1->2, 1->2->3->4->5, 6->3->4, 7->5 are the four possi
 
 *Required time* : This is the time that defines the constraints. Consider you wish to catch a train at 5:45pm. You arrive at the station at 5:35pm. Here the required time is 5:45pm and the arrival time is 5:35pm.
 
-Now the constraint could also have a lower limit. In the above train example, let us say the railway staff released a notice saying that the passengers will NOT be allowed into the railway station half an hour prior to their respective train time. In this case, you have to reach the station between 5:15pm and 5:45pm. 
+Now the constraint could also have a lower limit. In the above train example, let us say the railway staff released a notice saying that the passengers will NOT be allowed into the railway station half an hour prior to their respective train time. In this case, you have to reach the station between 5:15pm and 5:45pm.
+
+The difference between arrival time and required time is called _slack_. Since required time can have max and min limits, slack also can be min_slack or max_slack. 
+
+In the train example, min_slack would be 20min (5:35 - 5:15), while the max_slack would be 10min (5:45 - 5:35). These slacks would give us the _set-up time_ and _hold time_ constraints.
 
 
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
