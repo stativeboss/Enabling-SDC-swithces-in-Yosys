@@ -88,7 +88,7 @@ In the above figure, paths 1->2, 1->2->3->4->5, 6->3->4, 7->5 are the four possi
 
 *Arrival time* : The time required for the signal to start from A and reach B. It may be noted that arrival time is calculated at B only. Also, B may have multiple arrival times depending on whether it has multiple A's 
 
-(for example the above figure has two arrival times at 5 i.e, 4->5 and 7->5).
+(for example the above figure has two arrival times at 5 i.e, 1->2->3->4->5 and 7->5).
 
 *Required time* : This is the time that defines the constraints. Consider you wish to catch a train at 5:45pm. You arrive at the station at 5:35pm. Here the required time is 5:45pm and the arrival time is 5:35pm.
 
