@@ -85,6 +85,8 @@ Timing path: A timing path is the path between A and B. 'A' can be either a clk 
 
 In the above figure, paths 1->2, 1->2->3->4->5, 6->3->4, 7->5 are the four possible timing paths.
 
+Arrival time: The time required for the signal to start from A and reach B. It may be noted that arrival time is calculated at B only. Also, B may have multiple arrival times depending on whether it has multiple A's (for example the above figure has two arrival times at 5 i.e, 4->5 and 7->5).
+
 
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
 
