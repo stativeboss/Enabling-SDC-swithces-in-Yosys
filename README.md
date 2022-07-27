@@ -130,7 +130,6 @@ Besides these analyses, there are also load analysis (min/max fanout and min/max
 
 
 
-
 ![image](https://user-images.githubusercontent.com/14873110/177349666-aa5e80d4-6059-4afc-b357-3885c07372cb.png)
 
 The following is contained in my_netlist.v:
