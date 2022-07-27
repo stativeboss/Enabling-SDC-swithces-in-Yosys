@@ -100,15 +100,19 @@ In the train example, min_slack would be 20min (5:35 - 5:15), while the max_slac
 
 The below figure will now be used to introduce the types of Set-up/Hold analysis:
 
-![image](https://user-images.githubusercontent.com/14873110/180965541-78904d0b-6cc6-461e-b81a-80a72776edf1.png)
+![image](https://user-images.githubusercontent.com/14873110/181148213-672040aa-6865-417f-ad39-6fc90fcec565.png)
+
 
 path 6->4 is reg2reg </br>
 path 1->2 is in2reg </br>
-path 5->out (forgot to mention in figure but it'll be after 5) is reg2out </br>
+path 5->out is reg2out </br>
 path 1->out is in2out </br>
 path 10->11 is clock gating </br>
 
-There could be another path from clk_2 to the reset pin of the capture flop through some combinational circuit. This path is called _recover/removal_ path.
+There could be another path from clk_2 to the reset pin of the capture flop through some combinational circuit. This path is called _recover/removal_ path.</br>
+
+paths 10->14 and 6->15 data-to-data </br>
+
 
 
 
