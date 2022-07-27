@@ -122,6 +122,20 @@ Another aspect to be considered while analysing the timing is the slew. If slew 
 
 Besides these analyses, there are also load analysis (min/max fanout and min/max capacitance) and clock analysis(skew and pulse width). 
 
+Consider the below figure:
+
+![image](https://user-images.githubusercontent.com/14873110/181353364-4f577fef-7c43-44ca-95bb-02b3f9af34e8.png)
+
+
+The timing graph for the above circuit would be as below:
+
+![image](https://user-images.githubusercontent.com/14873110/181353216-6820517c-10bb-4aa7-85ee-6b26616b3c6c.png)
+
+Let's say the posedge of the clock reaches the _source_ node at 0units. Arrival time at any pin 'Pi' is defined as the time taken for the signal to reach that pin after the 0unit instant. 
+
+
+
+
 
 
 
