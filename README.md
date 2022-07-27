@@ -113,6 +113,8 @@ There could be another path from clk_2 to the reset pin of the capture flop thro
 
 paths 10->14 and 6->15 data-to-data </br>
 
+In the above figure, FF_Launch and FF are connected to a latch. The idea is to 'borrow' or 'give' time to these flipflops (FF_launch may _borrow_ while FF may _give_ in case the timing is not met. This is possible because flipflops are edge triggered while latches are level triggered (so even if we 'borrow' some time from latch, the latch would still function fine!). 
+
 
 
 
