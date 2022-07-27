@@ -129,9 +129,9 @@ Consider the below figure:
 
 The timing graph for the above circuit would be as below:
 
-![image](https://user-images.githubusercontent.com/14873110/181353216-6820517c-10bb-4aa7-85ee-6b26616b3c6c.png)
+![image](https://user-images.githubusercontent.com/14873110/181354029-da0d0815-d571-4f80-82fc-8a0e5b9b9269.png)
 
-Let's say the posedge of the clock reaches the _source_ node at 0units. Arrival time at any pin 'Pi' is defined as the time taken for the signal to reach that pin after the 0unit instant. 
+Let's say the posedge of the clock reaches the _source_ node at 0. Arrival time at any pin 'Pi' is defined as the time taken for the signal to reach that pin after the 0 instant. 
 
 
 
