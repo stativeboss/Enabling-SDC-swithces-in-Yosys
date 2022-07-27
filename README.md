@@ -113,7 +113,14 @@ There could be another path from clk_2 to the reset pin of the capture flop thro
 
 paths 10->14 and 6->15 data-to-data </br>
 
-In the above figure, FF_Launch and FF are connected to a latch. The idea is to 'borrow' or 'give' time to these flipflops (FF_launch may _borrow_ while FF may _give_ in case the timing is not met. This is possible because flipflops are edge triggered while latches are level triggered (so even if we 'borrow' some time from latch, the latch would still function fine!). 
+In the above figure, FF_clk_gating and FF are connected to a latch. The idea is to 'borrow' or 'give' time to these flipflops (FF_clk_gating may _borrow_ while the latch may _give_ to FF) in case the timing is not met. This is possible because flipflops are edge triggered while latches are level triggered (so even if we 'borrow' some time from latch, the latch would still function fine!). This concept creates two more timing analysis:</br>
+
+path 11->17 time borrow</br>
+path 16->19 time given</br>
+
+Another aspect to be considered while analysing the timing is the slew. If slew is too sharp, it'd increase the short circuit power and if it too blunt, it'd increase the opening time. Therefore there is a range within which the slew should fall. Slew can be analysed for data signals and clock signals.
+
+
 
 
 
