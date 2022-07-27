@@ -120,6 +120,8 @@ path 16->19 time given</br>
 
 Another aspect to be considered while analysing the timing is the slew. If slew is too sharp, it'd increase the short circuit power and if it too blunt, it'd increase the opening time. Therefore there is a range within which the slew should fall. Slew can be analysed for data signals and clock signals.
 
+Besides these analyses, there are also load analysis (min/max fanout and min/max capacitance) and clock analysis(skew and pulse width). 
+
 
 
 
