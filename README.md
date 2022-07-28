@@ -133,8 +133,7 @@ The timing graph for the above circuit would be as below:
 
 Let's say the posedge of the clock reaches the _source_ node at 0. Arrival time at any pin 'Pi' is defined as the time taken for the signal to reach that pin after the 0 instant. Moving from source side towards the output (Y) side, the Actual Arrival Time (AAT) at any node would be the sum of all delays until that particular node. Similarly, the Required Arrival Time (RAT) at a prticular node would be obtained by subtracting all delays till that node when moving from output towards the source (RAT at the output would be given and we need to subtract the delays from this value as we move from Y to the source). One node may have more than one AAT or RAT and we'd be choosing one of these values depending on our analysis approach (generally we try to design for worst case). This is where the concept of slack comes into picture. Slack is defined as RAT-AAT. It is evident (from the expression of slack) that the slack at every node should be positive to say that the timing is met.
 
-
-
+Note: If the analysis is made by tracing the worst timing path of a timing graph, it is called Graph Based Analysis (GBA) and if the analysis is made based on the path that the signal would take on actual silicon, it's called Path Based Analysis (PBA). 
 
 
 
