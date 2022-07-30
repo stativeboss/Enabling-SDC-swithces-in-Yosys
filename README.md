@@ -215,6 +215,11 @@ The circuit that we are trying to analyse with the above netlist would be as fol
 
 ![image](https://user-images.githubusercontent.com/14873110/181865680-83ed760c-bf6a-4a39-80de-7bcee5674163.png)
 
+The timing report is as follows:
+
+![image](https://user-images.githubusercontent.com/14873110/181865835-e2462ce3-b974-4094-84f7-f92c386fc2ff.png)
+
+
 
 
 
