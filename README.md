@@ -148,6 +148,8 @@ The following is contained in my_netlist.v:
 ![image](https://user-images.githubusercontent.com/14873110/177344348-2fcb6a30-dcfe-4f5e-9c97-96db703e3efa.png)
 ![image](https://user-images.githubusercontent.com/14873110/177345217-a3711916-7920-4139-9c59-991218790dff.png)
 
+### Reg2reg analysis:
+
 The following figure shows the timing constraints that were imposed and reflected by OpenTimer in the above figure:
 ![image](https://user-images.githubusercontent.com/14873110/177346154-3063f7bf-b36c-4dc7-9b69-66896404e5b7.png)
 
