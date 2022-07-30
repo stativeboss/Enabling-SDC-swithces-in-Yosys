@@ -211,6 +211,11 @@ endmodule
 
 ```
 
+The circuit that we are trying to analyse with the above netlist would be as follows:
+
+![image](https://user-images.githubusercontent.com/14873110/181865680-83ed760c-bf6a-4a39-80de-7bcee5674163.png)
+
+
 
 
 
