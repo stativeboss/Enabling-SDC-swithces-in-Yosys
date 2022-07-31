@@ -253,6 +253,15 @@ The setup time constraint is fed into opentimer as (clock time - (setup time+com
 
 Therefore, if it is assumed that clock time is 1ns, setup time is 1.5ps, combinational delay is 500ps (for set-up) and 200ps (for hold), then rat out 196.5 196.5 498.5 498.5 would be the constraint.
 
+![image](https://user-images.githubusercontent.com/14873110/182028766-0dee2451-fce0-4f7a-8ed2-d130b83db0df.png)
+
+The timing report is as follows:
+
+![image](https://user-images.githubusercontent.com/14873110/182028861-8ee5160c-4c4b-4a5b-958b-b0e737e4b6e5.png)
+
+Generally, we add inverters in the timing path to fix the hold issues during ECO phase.
+
+
 
 
 
