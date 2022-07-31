@@ -249,6 +249,11 @@ This makes the analysis same as the case-1.
 
 *Case-3 : setup time, hold time, and combinational delay for the output is known*
 
+The setup time constraint is fed into opentimer as (clock time - (setup time+combinational delay)) and the hold time is fed as (combinational delay - hold time).
+
+Therefore, if it is assumed that clock time is 1ns, setup time is 1.5ps, combinational delay is 500ps (for set-up) and 200ps (for hold), then rat out 196.5 196.5 498.5 498.5 would be the constraint.
+
+
 
 
 
