@@ -239,6 +239,10 @@ The following the timing report:
 
 ![image](https://user-images.githubusercontent.com/14873110/182027172-a4793a06-ac4b-4707-830f-38b4a25cdcca.png)
 
+ECO (Engineering Change Order) must be done in order make the circuit meet the timing specifications.
+
+
+
 
 
 
