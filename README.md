@@ -276,6 +276,17 @@ The following is the timing report
 
 ![image](https://user-images.githubusercontent.com/14873110/182029223-3ae38ee2-aae9-4e26-8deb-e7cfd549ee90.png)
 
+*Case-5 : data can change within a specific window before and after the posedge clock*
+
+Inputting this case as Standard SDC is as follows:
+
+```
+Genearate clock
+MCP of '0' //MCP as in multicycle path
+set ouput delay as -120ps max
+```
+
+
 
 
 
