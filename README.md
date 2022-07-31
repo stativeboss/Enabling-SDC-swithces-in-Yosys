@@ -265,6 +265,16 @@ Generally, we add inverters in the timing path to fix the hold issues during ECO
 
 If it is given that the output has to be stable for 470ps before posedge clock and 170ps after posedge clock, it just means that for setup analysis the required arrival time at the output is 530ps (1ns-470ps), and for hold analysis required arrival time would be 170ps.
 
+The following are the constraints:
+
+![image](https://user-images.githubusercontent.com/14873110/182029246-4007f364-db98-46b2-8971-ae695039a060.png)
+
+
+The following is the timing report
+
+![image](https://user-images.githubusercontent.com/14873110/182029223-3ae38ee2-aae9-4e26-8deb-e7cfd549ee90.png)
+
+
 
 
 
