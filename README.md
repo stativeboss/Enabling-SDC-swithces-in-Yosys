@@ -155,6 +155,11 @@ The following figure shows the timing constraints that were imposed and reflecte
 
 ![image](https://user-images.githubusercontent.com/14873110/181865171-3f66a742-f362-4ffb-9b79-1b0cc4015572.png)
 
+The below figure briefs on what above constraints mean:
+
+![image](https://user-images.githubusercontent.com/14873110/182025804-cdd27af6-8803-4469-bbd9-ef2a181a2be0.png)
+
+
 my_netlist.v is modified as below for slack compuattion studies and ECO:
 
 ```
@@ -220,6 +225,11 @@ The circuit that we are trying to analyse with the above netlist would be as fol
 The timing report is as follows:
 
 ![image](https://user-images.githubusercontent.com/14873110/181865835-e2462ce3-b974-4094-84f7-f92c386fc2ff.png)
+
+### Interface analysis
+
+*Case-1 : c2q and combinational delay is known*
+
 
 
 
