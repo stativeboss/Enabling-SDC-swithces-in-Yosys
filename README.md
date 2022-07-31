@@ -292,8 +292,16 @@ The following figure explains clock gating:
 
 ![image](https://user-images.githubusercontent.com/14873110/182029983-cdc1dfb9-de56-4e9a-8d0f-53c5d919ae7b.png)
 
-In case of active low clock gating analysis, 
+The following netlist is run:
 
+![image](https://user-images.githubusercontent.com/14873110/182032339-831e570a-9960-4b1b-b2ec-67d184408a1a.png)
+
+The arrival times are:
+
+![image](https://user-images.githubusercontent.com/14873110/182032365-b2d07a17-0d14-466d-8516-f6020dbe338a.png)
+
+
+This means that the slack is (1042.748 - 119.892)ps, which is a positive slack.
 
 
 
