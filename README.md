@@ -245,6 +245,12 @@ ECO (Engineering Change Order) must be done in order make the circuit meet the t
 
 Let's say the constraint is "input should be stable for 470ps before posedge clock and 230ps after posedge clock". If we assume that the time period is 1ns (like previous), it means that for hold analysis arrival time of input is 230ps and for setup analysis arrival time of input is 530ps (because 1ns-470ps is 530ps).
 
+This makes the analysis same as the case-1.
+
+*Case-3 : setup time, hold time, and combinational delay for the output is known*
+
+
+
 
 
 
