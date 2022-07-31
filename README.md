@@ -230,6 +230,18 @@ The timing report is as follows:
 
 *Case-1 : c2q and combinational delay is known*
 
+With the following timing constraints:
+
+![image](https://user-images.githubusercontent.com/14873110/182027201-90330905-95c3-4b6e-9de5-12ad9a8fbfd9.png)
+
+
+The following the timing report:
+
+![image](https://user-images.githubusercontent.com/14873110/182027172-a4793a06-ac4b-4707-830f-38b4a25cdcca.png)
+
+
+
+
 
 
 
