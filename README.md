@@ -261,6 +261,10 @@ The timing report is as follows:
 
 Generally, we add inverters in the timing path to fix the hold issues during ECO phase.
 
+*Case-4 : output waveform specifications are known*
+
+If it is given that the output has to be stable for 470ps before posedge clock and 170ps after posedge clock, it just means that for setup analysis the required arrival time at the output is 530ps (1ns-470ps), and for hold analysis required arrival time would be 170ps.
+
 
 
 
