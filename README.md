@@ -150,6 +150,8 @@ The following is contained in my_netlist.v:
 
 ### Reg2reg analysis:
 
+Note: For timing analysis, one posedge clock is sent to the source FF and the next posedge is sent to the capture FF.
+
 The following figure shows the timing constraints that were imposed and reflected by OpenTimer in the above figure:
 ![image](https://user-images.githubusercontent.com/14873110/177346154-3063f7bf-b36c-4dc7-9b69-66896404e5b7.png)
 
