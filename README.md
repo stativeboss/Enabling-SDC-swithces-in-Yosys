@@ -303,6 +303,9 @@ The arrival times are:
 
 This means that the slack is (1042.748 - 119.892)ps, which is a positive slack.
 
+In general, clock gating is done with a cell called Integrated Clock Gating (ICG) cell which has an enable pin and clock pin as inputs and ctrl pin as an output. It employs a latch based circuit.
+
+
 
 
 
