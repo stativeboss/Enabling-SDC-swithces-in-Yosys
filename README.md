@@ -286,6 +286,14 @@ MCP of '0' //MCP as in multicycle path
 set ouput delay as -120ps max
 ```
 
+### Clock gating analysis
+
+The following figure explains clock gating:
+
+![image](https://user-images.githubusercontent.com/14873110/182029983-cdc1dfb9-de56-4e9a-8d0f-53c5d919ae7b.png)
+
+In case of active low clock gating analysis, 
+
 
 
 
